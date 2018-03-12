@@ -1,0 +1,70 @@
+<script>;
+// УПРАЖНЕНИЕ 1
+console.log('УПРАЖНЕНИЕ 1');
+var i = 0, j = 0;
+var max = 5;
+    space = "",
+    hash = "";
+
+while (i < max) {
+    space = "";
+    hash = "";
+    for (j = 0; j < max; j++) space += " ";
+    for (j = i; j < 2 * i + 1; j++) hash += "#";
+    console.log(space + hash);
+    i++;
+}
+// УПРАЖНЕНИЕ 3
+console.log('УПРАЖНЕНИЕ 3');
+console.log("напишите функцию, которая будет выводить на экран такой треугольник:");
+var i = 0, j = 0;
+    var max = 5;
+        space = "",
+        hash = "";
+    while (i < max) {
+        space = "";
+        hash = "";
+        for (j = i; j < max; j++) space += " ";
+        for (j = i; j < 2 * i + 1; j++) hash += "#";
+        console.log(space + hash);
+        i++;
+    }
+    // ШАХМАТНАЯ ДОСКА
+    for (var i = 1; i < 5; i++) {
+        var even = i % 2;
+        if (even === 0) {
+            console.log(' # # #');
+        }
+        for (var j = 1; j < 5; j++) {
+            console.log('# # # #');
+        }
+    }
+     // второй треугольник
+     console.log("напишите функцию, которая будет выводить на экран такой треугольник:");
+ var i = 0, j = 0;
+    var max = 5;
+        space = "",
+        hash = "";
+    while (i < max) {
+        space = "";
+        hash = "";
+        for (j = i; j < max; j++) hash += "#";
+        for (j = 0; j < 2 * i + 1; j++) space += " ";
+        console.log(hash + space);
+        i++;
+    }
+    // третий треугольник
+    console.log("напишите функцию, которая будет выводить на экран такой треугольник:");
+    var i = 0, j = 0;
+    var max = 5;
+        space = "",
+        hash = "";
+    while (i < max) {
+        space = "";
+        hash = "";
+        for (j = i; j < max; j++) hash += "#";
+        for (j = i; j < 2 * i + 1; j++) space += " ";
+        console.log(space + hash);
+        i++;
+    }
+</script>
