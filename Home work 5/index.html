@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table{
+            margin-top: 20px;            
+        }
+        table th{
+            padding-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <form>
+            <select name="" id="adventure">
+                <option value="">Adventure</option>
+            </select>
+            <input type="text" id="from" placeholder="From">
+            <span>-</span>
+            <input type="text" id="to" placeholder="To">
+            <input type="button" id="find" value="Find">
+        </form>       
+        <div>
+            <table id="filmTable">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Genres</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                 </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
