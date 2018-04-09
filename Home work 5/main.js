@@ -48,14 +48,11 @@
         function filterByGenres(item) { 
             if (!selectValue)
                 return true;
-                console.log(item.genres)
-                console.log(item.genres.indexOf(selectValue))
             
             return item.genres.indexOf(selectValue)>0;
         }
         function filterByDate(item) {
             var filterValue = true;
-            console.log()
             if(dateFrom) {
                 filterValue = item.year >= dateFrom
             }
